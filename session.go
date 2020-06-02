@@ -1,11 +1,5 @@
 package models
 
-import (
-	"database/sql"
-	"encoding/json"
-	"log"
-)
-
 type Session struct {
 	SessionId               string   `protobuf:"bytes,1,opt,name=sessionId,proto3" json:"sessionId,omitempty"`
 	UserId                  string   `protobuf:"bytes,2,opt,name=userId,proto3" json:"userId,omitempty"`
